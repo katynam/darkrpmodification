@@ -45,16 +45,16 @@ e.g. you disable the gundealer and you make a new job as TEAM_GUN. If you want t
 work for your custom job, remake them to include your job as well.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["jobs"] = {
-	["chief"]     = false,
-	["citizen"]   = false,
-	["cook"]      = false, --Hungermod only
-	["cp"]        = false,
-	["gangster"]  = false,
-	["gundealer"] = false,
-	["hobo"]      = false,
-	["mayor"]     = false,
-	["medic"]     = false,
-	["mobboss"]   = false,
+	["นักเดินทาง"]     = true,
+	["Humer"]   = true,
+	["Zith"]      = true,
+	["Animus"]        = true,
+	["ผู้ป่วย"]  = true,
+	["วิญญาณ"] = true,
+	["ชีฟ"]      = true,
+	["มาจิสเตอร์"]     = true,
+	["อัศวิน"]     = true
+	
 }
 
 --[[---------------------------------------------------------------------------
@@ -96,17 +96,17 @@ Food
 Food is only enabled when hungermod is enabled (see disabled modules above).
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["food"] = {
-	["Banana"]           = false,
-	["Bunch of bananas"] = false,
-	["Melon"]            = false,
-	["Glass bottle"]     = false,
-	["Pop can"]          = false,
-	["Plastic bottle"]   = false,
-	["Milk"]             = false,
-	["Bottle 1"]         = false,
-	["Bottle 2"]         = false,
-	["Bottle 3"]         = false,
-	["Orange"]           = false,
+	["Banana"]           = true,
+	["Bunch of bananas"] = true,
+	["Melon"]            = true,
+	["Glass bottle"]     = true,
+	["Pop can"]          = true,
+	["Plastic bottle"]   = true,
+	["Milk"]             = true,
+	["Bottle 1"]         = true,
+	["Bottle 2"]         = true,
+	["Bottle 3"]         = true,
+	["Orange"]           = true,
 }
 
 --[[---------------------------------------------------------------------------
