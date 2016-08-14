@@ -86,7 +86,7 @@ GM.Config.dropspawnedweapons            = true
 -- dynamicvoice - Enable/disable whether only people in the same room as you can hear your mic.
 GM.Config.dynamicvoice                  = true
 -- earthquakes - Enable/disable earthquakes.
-GM.Config.earthquakes                   = false
+GM.Config.earthquakes                   = true
 -- enablebuypistol - Turn /buy on of off.
 GM.Config.enablebuypistol               = true
 -- enforceplayermodel - Whether or not to force players to use their role-defined character models.
@@ -100,7 +100,7 @@ GM.Config.showjob                       = true
 -- letters - Enable/disable letter writing / typing.
 GM.Config.letters                       = true
 -- license - Enable/disable People need a license to be able to pick up guns.
-GM.Config.license                       = false
+GM.Config.license                       = true
 -- lockdown - Enable/Disable initiating lockdowns for mayors.
 GM.Config.lockdown                      = true
 -- lockpickfading - Enable/disable the lockpicking of fading doors.
@@ -317,7 +317,7 @@ GM.Config.DisabledCustomModules = {
 GM.Config.DisallowDrop = {
     ["arrest_stick"] = true,
     ["door_ram"] = true,
-    ["gmod_camera"] = true,
+    ["gmod_camera"] = false,
     ["gmod_tool"] = true,
     ["keys"] = true,
     ["lockpick"] = true,
@@ -326,8 +326,8 @@ GM.Config.DisallowDrop = {
     ["stunstick"] = true,
     ["unarrest_stick"] = true,
     ["weapon_keypadchecker"] = true,
-    ["weapon_physcannon"] = true,
-    ["weapon_physgun"] = true,
+    ["weapon_physcannon"] = false,
+    ["weapon_physgun"] = false,
     ["weaponchecker"] = true,
 }
 
@@ -348,15 +348,15 @@ GM.Config.DefaultWeapons = {
 -- Make sure the category is created in the darkrp_customthings/categories.lua, otherwise it won't work!
 GM.Config.CategoryOverride = {
     jobs = {
-        ["Citizen"]                             = "Citizens",
-        ["Hobo"]                                = "Citizens",
-        ["Gun Dealer"]                          = "Citizens",
-        ["Medic"]                               = "Citizens",
-        ["Civil Protection"]                    = "Civil Protection",
-        ["Gangster"]                            = "Gangsters",
-        ["Mob boss"]                            = "Gangsters",
-        ["Civil Protection Chief"]              = "Civil Protection",
-        ["Mayor"]                               = "Civil Protection",
+        ["นักเดินทาง"]                             = "นักเดินทาง",
+        ["Humer"]                                = "พลเมือง",
+        ["Zith"]                          = "พลเมือง",
+        ["Animus"]                               = "พลเมือง",
+        ["ผู้ป่วย "]                    = "ผู้ป่วย",
+        ["วิญญาณ"]                            = "วิญญาณ",
+        ["ชีฟ"]                            = "รองหัวหน้าเผ่า",
+        ["มาจิสเตอร์"]              = "หัวหน้าเผ่า",
+        ["อัศวิน"]                               = "อัศวิน",
     },
     entities = {
         ["Drug lab"]                            = "Other",
@@ -365,12 +365,8 @@ GM.Config.CategoryOverride = {
 
     },
     shipments = {
-        ["AK47"]                                = "Rifles",
-        ["MP5"]                                 = "Rifles",
-        ["M4"]                                  = "Rifles",
-        ["Mac 10"]                              = "Other",
-        ["Pump shotgun"]                        = "Shotguns",
-        ["Sniper rifle"]                        = "Snipers",
+        ["wand"]                                = "wand",
+        ["bloom"]                                = "bloom",
 
     },
     weapons = {
